@@ -1,0 +1,194 @@
+/* font-family: 'Poppins', sans-serif; */
+
+/* ///////////////
+  Reset
+  ////////////// */
+
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 12.5em 4.1em;
+}
+
+/* ///////////////
+    General styling
+    ////////////// */
+
+a {
+    background: #7000FF;
+    border: 1px solid #7000FF;
+    border-radius: .5em;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+    padding: .8em 0em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+a:hover {
+    background: #6500e6;
+    border: 1px solid #6500e6;
+}
+
+span {
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card1 {
+    background: #7000FF;
+    border-radius: 1em;
+    padding: 5em;
+    margin-bottom: 2.4em;
+}
+
+.card1 h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card1 p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card2 {
+    border: .3em solid #2E2E2E;
+    border-radius: 1em;
+    margin-bottom: 2.4em;
+    padding: 5.4em 4.4em 0;
+}
+
+.card2 h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.card2 p {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 5em;
+}
+
+.content h2 {
+    margin: 0;
+}
+
+.content p {
+    margin: 0;
+}
+
+.cta {
+    color: #878787;
+    Font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+.cta p {
+    display: inline-block;
+    padding: 0 7em;
+    margin: 0;
+    line-height: 2rem;
+}
+
+/* ///////////////
+    Media query
+    ////////////// */
+
+/* Tablet */
+@media screen and (min-width: 1024px) {
+
+    .container {
+        flex-direction: row;
+        gap: 2.3em;
+        flex-wrap: wrap;
+    }
+
+    .card2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+
+    .cta {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+
+    .container {
+        gap: 2.3em;
+        margin: auto; 
+    }
+
+    .card2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 2;
+    }
+
+    .cta {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .cta p {
+        text-align: left;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
